@@ -26,6 +26,7 @@ db와 테이블 구조는 위와 같으며
 밑에 명령어를 순서대로 실행하면 위와 같은 구조로 생성이 될 것입니다.    
    
    
+    
 #루트계정으로 접속   
    
 create database springdb default character set utf8;   
