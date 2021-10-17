@@ -20,14 +20,14 @@ db 계정 id        : testuser
 db 계정 비밀번호  : 1111
 table  이름       : members
 table  구조       : email, password, authority, enabeled
-
+   
 db와 테이블 구조는 위와 같으며 
-
+   
 밑에 명령어를 순서대로 실행하면 위와 같은 구조로 생성이 될 것입니다. 
-
-
-#루트계정으로 접속
-
+   
+   
+#루트계정으로 접속   
+   
 create database springdb default character set utf8;
 grant select, insert, update, delete, create, drop on springdb.* to 'testuser'@'localhost' identified by '1111';
 grant select, insert, update, delete, create, drop on springdb.* to 'testuser'@'%' identified by '1111';
